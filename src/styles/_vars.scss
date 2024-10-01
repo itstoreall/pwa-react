@@ -1,0 +1,36 @@
+$min: 320px;
+$mobile: 390px;
+$tablet: 820px;
+$desktop: 1024px;
+$max: 1440px;
+
+// ------ Colors:
+
+$white: white;
+$lightGrey: #dfe0e4;
+$middleGrey: #9399a3;
+$darkGrey: #575b61;
+$dark: #282c34;
+$black: #22252c;
+
+// --
+
+$color: $lightGrey;
+$border: $darkGrey;
+$bg: $dark;
+
+// ------ Transition:
+
+$ease0s: 0s ease;
+$ease03s: 0.3s ease;
+$easeOut05s: 0.5s ease-out;
+$easeInOut05s: 0.5s ease-in-out;
+
+$ease03s03s: 0.3s ease 0.3s;
+$ease03s01s: 0.3s ease 0.1s;
+
+// ------ Global vars:
+
+$viewportHeight: 100svh;
+$headerHeight: 50px;
+$footerHeight: 50px;
